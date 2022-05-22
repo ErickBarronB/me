@@ -3,11 +3,6 @@
   padding: 0px;
 }
 
-.navbar {
-  background-color: rgba(216, 151, 216, 0.418);
-}
-
-
 .navbarLogoTexto {
   font-size: 40px;
   font-weight: bolder;
@@ -15,6 +10,6 @@
 }
 
 .mainContenido {
-  background-color: rgb(167, 167, 167);
+  background-color: aqua;
   height: 400px;
 }/*# sourceMappingURL=estilo.css.map */

@@ -29,4 +29,61 @@
   display: flex;
   height: 400px;
   justify-content: center;
+}
+
+.fondoMain {
+  background-color: rgba(150, 83, 231, 0.441);
+  display: flex;
+  padding: 20px;
+}
+
+.carouselTamano {
+  height: 400px;
+  width: 600px;
+  justify-content: center;
+  border-radius: 40px;
+}
+.carouselTamano .carousel-item {
+  height: 400px;
+  width: 600px;
+  justify-content: center;
+}
+.carouselTamano .carousel-item img {
+  height: 400px;
+}
+
+#carouselImagenes {
+  height: 400px;
+  width: 600px;
+  display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+  #imagenLogo {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+  }
+
+  .carouselTamano {
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 40px;
+  }
+  .carouselTamano .carousel-item {
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+  }
+  .carouselTamano .carousel-item img {
+    height: 300px;
+    width: 300px;
+  }
+
+  #carouselImagenes {
+    height: 300px;
+    width: 300px;
+    display: flex;
+  }
 }/*# sourceMappingURL=estilo.css.map */

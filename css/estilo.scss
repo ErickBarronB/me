@@ -1,15 +1,19 @@
+
+$me-color: #562f86;
+$mecolor2:rgba(150, 83, 231, 0.441);
+
 * {
     margin: 0px;
     padding: 0px;
-  }
-  
-  .navbarLogoTexto {
+}
+
+.navbarLogoTexto {
     font-size: 40px;
     font-weight: bolder;
     color: rgb(112, 38, 112);
-  }
-  
-  .mainContenidoLogo {
+}
+
+.mainContenidoLogo {
     background-color: #562f86;
     display: flex;
     justify-content: center;
@@ -25,8 +29,75 @@
         }
   }/*# sourceMappingURL=estilo.css.map */
 
-  #imagenLogo {
-      display: flex;
-      height: 400px;
-      justify-content: center;
-  }
+#imagenLogo {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.fondoMain {
+background-color: $mecolor2;
+display: flex;
+padding: 20px;
+}
+
+.carouselTamano {
+    height: 400px;
+    width: 600px;
+    justify-content: center;
+    border-radius: 40px;
+
+
+    .carousel-item {
+        height: 400px;
+        width: 600px;
+        justify-content: center;
+
+        img {
+            height: 400px;
+        }
+    }
+}
+
+#carouselImagenes {
+    height: 400px;
+    width: 600px;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #imagenLogo {
+        display: flex;
+        height: 200px;
+        justify-content: center;
+    }
+
+    .carouselTamano {
+        height: 300px;
+        width: 300px;
+        justify-content: center;
+        border-radius: 40px;
+    
+    
+        .carousel-item {
+            height: 300px;
+            width: 300px;
+            justify-content: center;
+    
+            img {
+                height: 300px;
+                width: 300px;
+            }
+        }
+    }
+    
+    #carouselImagenes {
+        height: 300px;
+        width: 300px;
+        display: flex;
+    }
+    
+
+}

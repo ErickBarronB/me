@@ -1,6 +1,8 @@
 
-$me-color: #562f86;
-$mecolor2:rgba(150, 83, 231, 0.441);
+$me-color:#5C2C6C ;
+$mecolor2:#B478D3;
+$mecolor3: #A976CC;
+$mecolor4: #EBDAF2;
 
 * {
     margin: 0px;
@@ -14,7 +16,7 @@ $mecolor2:rgba(150, 83, 231, 0.441);
 }
 
 .mainContenidoLogo {
-    background-color: #562f86;
+    background-color: $me-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +38,7 @@ $mecolor2:rgba(150, 83, 231, 0.441);
 }
 
 .fondoMain {
-background-color: $mecolor2;
+background-color: $mecolor3;
 display: flex;
 padding: 20px;
 }
@@ -48,13 +50,16 @@ padding: 20px;
     border-radius: 40px;
 
 
-    .carousel-item {
+    .carouselItemEstilo {
         height: 400px;
         width: 600px;
         justify-content: center;
 
+
         img {
             height: 400px;
+            width: 100%;
+            border-radius: 40px;
         }
     }
 }
@@ -65,8 +70,25 @@ padding: 20px;
     display: flex;
 }
 
+.captionTitulo {
+    background-color: #EBDAF2;
+    width: 100%;
+    border-radius: 30px;
+    color: black;
+}
 
 @media only screen and (max-width: 767px) {
+
+    .mainContenidoLogo {
+        background-color: $me-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 280px;
+        margin: 0px;
+        padding: 0px;
+
+    }
 
     #imagenLogo {
         display: flex;
@@ -75,26 +97,27 @@ padding: 20px;
     }
 
     .carouselTamano {
-        height: 300px;
+        height: 280px;
         width: 300px;
         justify-content: center;
         border-radius: 40px;
     
     
-        .carousel-item {
-            height: 300px;
+        .carouselItemEstilo {
+            height: 280px;
             width: 300px;
             justify-content: center;
     
             img {
-                height: 300px;
+                height: 280px;
                 width: 300px;
+                border-radius: 40px;
             }
         }
     }
     
     #carouselImagenes {
-        height: 300px;
+        height: 280px;
         width: 300px;
         display: flex;
     }

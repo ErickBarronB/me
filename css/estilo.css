@@ -10,7 +10,7 @@
 }
 
 .mainContenidoLogo {
-  background-color: #562f86;
+  background-color: #5C2C6C;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
 }
 
 .fondoMain {
-  background-color: rgba(150, 83, 231, 0.441);
+  background-color: #A976CC;
   display: flex;
   padding: 20px;
 }
@@ -43,13 +43,15 @@
   justify-content: center;
   border-radius: 40px;
 }
-.carouselTamano .carousel-item {
+.carouselTamano .carouselItemEstilo {
   height: 400px;
   width: 600px;
   justify-content: center;
 }
-.carouselTamano .carousel-item img {
+.carouselTamano .carouselItemEstilo img {
   height: 400px;
+  width: 100%;
+  border-radius: 40px;
 }
 
 #carouselImagenes {
@@ -58,7 +60,24 @@
   display: flex;
 }
 
+.captionTitulo {
+  background-color: #EBDAF2;
+  width: 100%;
+  border-radius: 30px;
+  color: black;
+}
+
 @media only screen and (max-width: 767px) {
+  .mainContenidoLogo {
+    background-color: #5C2C6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    margin: 0px;
+    padding: 0px;
+  }
+
   #imagenLogo {
     display: flex;
     height: 200px;
@@ -66,23 +85,24 @@
   }
 
   .carouselTamano {
-    height: 300px;
+    height: 280px;
     width: 300px;
     justify-content: center;
     border-radius: 40px;
   }
-  .carouselTamano .carousel-item {
-    height: 300px;
+  .carouselTamano .carouselItemEstilo {
+    height: 280px;
     width: 300px;
     justify-content: center;
   }
-  .carouselTamano .carousel-item img {
-    height: 300px;
+  .carouselTamano .carouselItemEstilo img {
+    height: 280px;
     width: 300px;
+    border-radius: 40px;
   }
 
   #carouselImagenes {
-    height: 300px;
+    height: 280px;
     width: 300px;
     display: flex;
   }
